@@ -13,9 +13,11 @@ homework2/
     ├── main/
     │   ├── java/           # Java源代码目录
     │   └── resources/      # 资源文件目录
-    └── test/
-        └── java/           # 测试代码目录
-        └── resources/           # 测试资源目录
+    ├── test/
+    │    └── java/           # 测试代码目录
+    │  └── resources/           # 测试资源目录
+    └── out/
+        └── paper-checker.jar # 打包后的jar包
 ```
 
 ## 功能说明

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="TextCheckTest" time="0.231" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="TextCheckTest" time="0.229" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2024.1.1"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -63,5 +63,5 @@
     <property name="java.vendor.version" value="Microsoft-11369865"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="TextCheckTest" name="test" time="0.231"/>
+  <testcase classname="TextCheckTest" name="test" time="0.229"/>
 </testsuite>
