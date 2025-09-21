@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="TextCheckTest" time="0.231" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2024.1.1"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.15+6-LTS"/>
+    <property name="sun.boot.library.path" value="C:\Users\ASUS\.jdks\ms-17.0.15\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="E:\RuanGong\DhxWork\homework2"/>
+    <property name="java.vm.vendor" value="Microsoft"/>
+    <property name="java.vendor.url" value="https://www.microsoft.com"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="E:\RuanGong\DhxWork\homework2"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="17.0.15+6-LTS"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\ASUS\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="maven.ext.class.path" value="E:\java\IDEA\IntelliJ IDEA 2024.1.1\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="E:\java\apache-maven-3.6.1-bin\apache-maven-3.6.1\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Users\ASUS\.jdks\ms-17.0.15\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;D:\Windows Kits\10\Windows Performance Toolkit\;E:\java\Git\cmd;C:\Program Files\dotnet\;E:\java\nodejs\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;E:\java\jdk21.0.1\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin\;E:\java\apache-maven-3.6.1-bin\apache-maven-3.6.1\bin;E:\java\apache-maven-3.6.1-bin\apache-maven-3.6.1\bin;C:\Users\ASUS\AppData\Roaming\npm;D:\Tencent\Microsoft VS Code\bin;;."/>
+    <property name="jansi.passthrough" value="true"/>
+    <property name="maven.conf" value="E:\java\apache-maven-3.6.1-bin\apache-maven-3.6.1/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\ASUS"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="ASUS"/>
+    <property name="java.class.path" value="E:\java\apache-maven-3.6.1-bin\apache-maven-3.6.1\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2024.1.1 -s E:\java\apache-maven-3.6.1-bin\apache-maven-3.6.1\conf\settings.xml package"/>
+    <property name="java.home" value="C:\Users\ASUS\.jdks\ms-17.0.15"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.15"/>
+    <property name="native.encoding" value="GBK"/>
+    <property name="java.vendor" value="Microsoft"/>
+    <property name="java.specification.maintenance.version" value="1"/>
+    <property name="maven.home" value="E:\java\apache-maven-3.6.1-bin\apache-maven-3.6.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.vendor.url.bug" value="https://github.com/microsoft/openjdk/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Microsoft-11369865"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="TextCheckTest" name="test" time="0.231"/>
+</testsuite>

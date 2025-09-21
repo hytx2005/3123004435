@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="DhxWork:jar">
+    <output-path>$PROJECT_DIR$/homework2/target</output-path>
+    <root id="archive" name="DhxWork.jar">
+      <element id="module-output" name="homework2" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/../../java/apache-maven-3.6.1-bin/apache-maven-3.6.1/mvn_resp/com/hankcs/hanlp/portable-1.8.4/hanlp-portable-1.8.4.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

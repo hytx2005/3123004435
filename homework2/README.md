@@ -35,13 +35,13 @@ homework2/
 系统通过命令行参数运行，格式如下：
 
 ```bash
-java -jar homework2.jar [待检测论文路径] [对比论文路径] [结果输出路径]
+java -jar paper-checker.jar [待检测论文路径] [对比论文路径] [结果输出路径]
 ```
 
 示例：
 
 ```bash
-java -jar homework2.jar paper.txt reference.txt result.txt
+java -jar paper-checker.jar paper.txt reference.txt result.txt
 ```
 
 
