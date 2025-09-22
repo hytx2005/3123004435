@@ -165,33 +165,20 @@ public class TextCheck {
         Map<String, Integer> paperFreq = buildWordFrequency(paperWords);
         Map<String, Integer> referenceFreq = buildWordFrequency(referenceWords);
 
-        // 获取所有唯一词汇
-        Set<String> allWords = new HashSet<>();
-        allWords.addAll(paperFreq.keySet());
-        allWords.addAll(referenceFreq.keySet());
+        // 将对比论文的词语放入集合，方便快速查询
+        Set<String> referenceWordSet = new HashSet<>(referenceFreq.keySet());
 
-        // 计算余弦相似度
-        double dotProduct = 0.0;
-        double paperNorm = 0.0;
-        double referenceNorm = 0.0;
-
-        for (String word : allWords) {
-            int paperCount = paperFreq.getOrDefault(word, 0);
-            int referenceCount = referenceFreq.getOrDefault(word, 0);
-
-            // 计算点积
-            dotProduct += paperCount * referenceCount;
-            // 计算向量范数
-            paperNorm += paperCount * paperCount;
-            referenceNorm += referenceCount * referenceCount;
+        // 计算待检测论文中出现在对比论文中的词语数量
+        int commonWordsCount = 0;
+        for (String word : paperFreq.keySet()) {
+            if (referenceWordSet.contains(word)) {
+                // 累加共同词语的出现次数
+                commonWordsCount += paperFreq.get(word);
+            }
         }
 
-        // 计算余弦值
-        double denominator = Math.sqrt(paperNorm) * Math.sqrt(referenceNorm);
-        if (denominator == 0) {
-            return 0.0;
-        }
-        return dotProduct / denominator;
+        // 计算词语重复度：共同词语出现次数 / 待检测论文总词语数
+        return (double) commonWordsCount / paperWords.size();
     }
 
     /**
