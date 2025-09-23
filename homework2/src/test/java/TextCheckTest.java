@@ -18,14 +18,16 @@ public class TextCheckTest {
 
     @Test
     public  void test() {
+        long startTime = System.currentTimeMillis();
         TextCheck.main(new String[]{
                 // 原文路径
                 "E:\\RuanGong\\DhxWork\\homework2\\src\\test\\resources\\orig.txt",
                 // 待校验文件路径
-                waitCheckList.get(0),
+                waitCheckList.get(2),
 
                 // 结果输出路径
                 "E:\\RuanGong\\DhxWork\\homework2\\src\\test\\resources\\result.txt"}
         );
+        System.out.println("总耗时(毫秒):"+(System.currentTimeMillis()-startTime));
     }
 }

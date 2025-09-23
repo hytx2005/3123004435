@@ -154,7 +154,7 @@ public class TextCheck {
     }
 
     /**
-     * 计算两篇论文的相似度，使用余弦相似度算法
+     * 计算两篇论文的相似度，使用词语重复率计算
      * @param paperWords 待检测论文的词列表
      * @param referenceWords 对比论文的词列表
      * @return 相似度，范围在0-1之间
