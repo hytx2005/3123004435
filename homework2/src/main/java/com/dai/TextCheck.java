@@ -67,11 +67,15 @@ public class TextCheck {
             String referenceContent = readFile(referencePath);
 
             // 4.进行文本预处理，分词并过滤停用词
+            long startTime = System.currentTimeMillis();
             List<String> paperWords = preprocessText(paperContent);
             List<String> referenceWords = preprocessText(referenceContent);
+            System.out.println("文本预处理总耗时(毫秒):"+(System.currentTimeMillis()-startTime));
 
             // 5.计算文本相似度
+             startTime = System.currentTimeMillis();
             double similarity = calculateSimilarity(paperWords, referenceWords);
+            System.out.println("文本相似度计算总耗时(毫秒):"+(System.currentTimeMillis()-startTime));
 
             // 6.保存结果到文件
             saveResult(resultPath, similarity);

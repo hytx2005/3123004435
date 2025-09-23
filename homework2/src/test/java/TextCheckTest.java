@@ -22,7 +22,7 @@ public class TextCheckTest {
                 // 原文路径
                 "E:\\RuanGong\\DhxWork\\homework2\\src\\test\\resources\\orig.txt",
                 // 待校验文件路径
-                waitCheckList.get(4),
+                waitCheckList.get(0),
 
                 // 结果输出路径
                 "E:\\RuanGong\\DhxWork\\homework2\\src\\test\\resources\\result.txt"}
